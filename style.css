@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  opacity: 0;
+  position: absolute;
+}
+
+.pokemon {
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  /* opacity: 0.7; */
+}
+
+.atas {
+    position: absolute;
+    z-index: 10;
+}
+
+.tengah {
+    position: absolute;
+    z-index: 5;
+}
+
+.kepala {
+  width: 330px;
+  height: 295px;
+  background: #407cb3;
+  position: absolute;
+  border-radius: 50%;
+  top: -285px;
+  left: -750px;
+}
+
+.jambul {
+  width: 90px;
+  height: 120px;
+  background: #94c9d9;
+  position: absolute;
+  top: -190px;
+  left: -495px;
+  transform: rotate(39deg);
+  border-radius: 0% 100% 100% 0% / 0% 93% 7% 100% 
+}
+
+.jambul2 {
+  width: 90px;
+  height: 95px;
+  background: #407cb3;
+  position: absolute;
+  top: -245px;
+  left: -517px;
+  border-radius: 0% 100% 0% 100% / 0% 100% 0% 100% 
+}
+
+.jambul3 {
+  width: 90px;
+  height: 95px;
+  background: #407cb3;
+  position: absolute;
+  top: -222px;
+  left: -555px;
+  border-radius: 0% 100% 0% 100% / 0% 100% 0% 100% 
+}
+
+.mulut1 {
+  width: 65px;
+  height: 65px;
+  background: #f5cf3c;
+  position: absolute;
+  border-radius: 50%;
+  top: -120px;
+  left: -475px;
+  border-radius: 34% 63% 47% 44% / 40% 68% 25% 52%;
+  transform: rotate(25deg);
+}
+
+.mulut2 {
+  width: 57px;
+  height: 60px;
+  background: #d8b734;
+  position: absolute;
+  border-radius: 50%;
+  top: -105px;
+  left: -475px;
+  border-radius: 12% 89% 100% 26% / 53% 22% 77% 49%;
+}
+
+.mata {
+  width: 170px;
+  height: 200px;
+  position: absolute;
+  top: -199px;
+  left: -665px;
+  background: #ffffff;
+  transform: rotate(75deg) scaleY(-1);
+  border-radius: 50% 50% 0% 100% / 54% 79% 21% 46%;
+}
+
+.bola-mata {
+  z-index: 1;
+  width: 50px;
+  height: 80px;
+  position: absolute;
+  top: -129px;
+  left: -590px;
+  background: radial-gradient(at right 60%, #4772a7, #2d3e6a);
+  transform: rotate(-12deg);
+  border-radius: 50%;
+}
+
+.bola-mata2 {
+  z-index: 1;
+  width: 22px;
+  height: 50px;
+  position: absolute;
+  top: -119px;
+  left: -580px;
+  background: radial-gradient(at right 60%, #0d0e0e, #080809);
+  transform: rotate(-13deg);
+  border-radius: 50%;
+}
+
+.bola-mata3 {
+  z-index: 1;
+  width: 22px;
+  height: 37px;
+  position: absolute;
+  top: -125px;
+  left: -585px;
+  background: white;
+  border-radius: 50%;
+}
+
+.leher {
+  z-index: 10;
+  width: 90px;
+  height: 95px;
+  background: #407cb3;
+  position: absolute;
+  top: -32px;
+  left: -552px;
+  border-radius: 0% 100% 43% 57% / 0% 79% 21% 100% 
+}
+
+.leher2 {
+  z-index: 10;
+  width: 151px;
+  height: 101px;
+  background: #407cb3;
+  position: absolute;
+  top: -19px;
+  left: -677px;
+  transform: rotate(16deg);
+  border-radius: 45% 55% 48% 52% / 11% 50% 50% 89% 
+}
+
+.leher3 {
+  width: 69px;
+  height: 184px;
+  background: #407cb3;
+  position: absolute;
+  top: -49px;
+  left: -733px;
+  transform: rotate(51deg);
+  border-radius: 50%
+}
+
+.leher4 {
+  width: 40px;
+  height: 116px;
+  background: #407cb3;
+  position: absolute;
+  top: -20px;
+  left: -769px;
+  transform: rotate(-35deg);
+  border-radius: 50%
+}
+
+.leher5 {
+  width: 24px;
+  height: 68px;
+  background: #407cb3;
+  position: absolute;
+  top: -15px;
+  left: -739px;
+  transform: rotate(-35deg);
+  border-radius: 50%
+}
+
+.badan1 {
+  z-index: 3;
+  width: 228px;
+  height: 207px;
+  background: #A6D2D8;
+  position: absolute;
+  top: -11px;
+  left: -734px;
+  transform: rotate(2deg);
+  border-radius: 61% 39% 50% 50% / 75% 61% 39% 25% 
+}
+
+.badan2 {
+  z-index: 3;
+  width: 90px;
+  height: 152px;
+  background: #A6D2D8;
+  position: absolute;
+  top: 67px;
+  left: -688px;
+  transform: rotate(2deg);
+  border-radius: 61% 39% 50% 50% / 75% 61% 39% 25% 
+}
+
+.tangan-kiri {
+  width: 50px;
+  height: 117px;
+  background: #7abec7;
+  position: absolute;
+  top: 35px;
+  left: -530px;
+  border-radius: 50%
+}
+
+.tangan-kanan {
+  z-index: 3;
+  width: 93px;
+  height: 138px;
+  background: linear-gradient(#A6D2D8, #7abec7);
+  position: absolute;
+  top: 45px;
+  left: -702px;
+  transform: rotate(-22deg);
+  border-radius: 61% 39% 93% 7% / 93% 37% 63% 7%  
+}
+
+.kaki-kiri {
+  width: 60px;
+  height: 105px;
+  background: #F5CF3C;
+  position: absolute;
+  top: 149px;
+  left: -561px;
+  transform: rotate(94deg);
+  border-radius: 61% 39% 93% 7% / 93% 37% 63% 7%
+}
+
+.kaki-kanan {
+  width: 60px;
+  height: 134px;
+  background: #F5CF3C;
+  position: absolute;
+  top: 163px;
+  left: -671px;
+  transform: rotate(113deg);
+  border-radius: 61% 39% 93% 7% / 93% 37% 63% 7%
+}
